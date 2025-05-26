@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.gencal.dim_coord_ratio.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DimensionTypeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
