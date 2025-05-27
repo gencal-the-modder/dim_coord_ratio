@@ -4,7 +4,7 @@ import net.minecraft.world.level.dimension.DimensionType;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
-@Mixin(value = DimensionType.class, remap = false)
+@Mixin(value = DimensionType.class, remap = true)
 public class DimensionTypeMixin {
     /**
      * @author Gencal
